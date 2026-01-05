@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Build outputs
+*.min.js
+*.min.css
+
+# Test files
+test-*.html
+test-results.txt
+*.test.js
+
+# IDE
+.vscode/
+.kiro/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*

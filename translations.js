@@ -1,0 +1,230 @@
+// Multi-language translations for portfolio website
+// Supports Turkish (TR) and English (EN)
+const translations = {
+  tr: {
+    navbar: {
+      home: "Anasayfa",
+      about: "Hakkımda",
+      skills: "Yetenekler",
+      projects: "Projeler",
+      experience: "Deneyim",
+      contact: "İletişim"
+    },
+    hero: {
+      headline: "İlknur İşcen",
+      subtitle: "Portfolyoma Hoş Geldiniz",
+      projectsBtn: "Projeleri Görüntüle",
+      contactBtn: "İletişime Geç"
+    },
+    about: {
+      title: "Hakkımda",
+      badge: "Geliştirici",
+      bioIntro: "Merhaba ben İlknur İşcen. Çanakkale Onsekiz Mart Üniversitesi Bilgisayar Programcılığı mezunu olarak; PHP (Laravel), C#, Java ve web teknolojileri (HTML, CSS) konularında edindiğim bilgi ve projelerimle yazılım alanında kendimi sürekli geliştirmeyi hedefliyorum. Tasarım becerilerimi Photoshop ve Illustrator ile destekleyerek kullanıcı dostu ve işlevsel arayüzler oluşturma konusunda yetkinliğimi artırmak istiyorum.",
+      experienceTitle: "Deneyim",
+      experienceValue: "1+ Yıl",
+      projectsTitle: "Projeler",
+      projectsValue: "15+",
+      clientsTitle: "Müşteriler",
+      clientsValue: "10+",
+      location: "Düzce, Türkiye",
+      status: "İş Fırsatlarına Açık",
+      specialty: "Full Stack Geliştirme",
+      ctaContact: "İletişime Geç",
+      ctaProjects: "Çalışmalarımı Gör",
+      cvDownload: "CV İndir",
+      skillsOverviewTitle: "Temel Yetkinlikler",
+      frontendSkills: "Frontend",
+      backendSkills: "Backend",
+      toolsSkills: "Araçlar & Diğer"
+    },
+    skills: {
+      title: "Yetenekler",
+      frontend: "Frontend",
+      frontendDesc: "HTML, CSS, JavaScript, Laravel Blade, Bootstrap ile duyarlı ve etkileşimli web arayüzleri oluşturma",
+      backend: "Backend",
+      backendDesc: "PHP, Laravel, Java, C# (.NET, Entity Framework Core) ile ölçeklenebilir uygulamalar geliştirme",
+      tools: "Veritabanı & Araçlar",
+      toolsDesc: "MySQL, MongoDB, MsSQL, Git & GitHub ile modern geliştirme"
+    },
+    projects: {
+      title: "Projeler",
+      filterAll: "Tümü",
+      filterWeb: "Web",
+      filterMobile: "Mobil",
+      filterDesign: "Tasarım",
+      viewDetailsBtn: "Detayları Görüntüle",
+      githubBtn: "GitHub",
+      ecommerce: "Sinema Bilet Satış Projesi",
+      ecommerceDesc: "C# ve Windows Forms kullanarak geliştirdiğim Sinema Bilet Satış Sistemi",
+      ecommerceFullDesc: "C# ve Windows Forms kullanarak geliştirdiğim Sinema Bilet Satış Sistemi, kullanıcıların filmleri, seansları ve salonları görüp bilet satın almasını sağlıyor. Entity Framework Core ile MySQL veritabanına bağlanıyor, yönetici modülü sayesinde film, salon, koltuk ve bilet işlemlerini kolayca yönetebiliyorum.",
+      fitness: "İlaç Hatırlatma Sistemi",
+      fitnessDesc: "Laravel ile geliştirdiğim İlaç Hatırlatma Sistemi",
+      fitnessFullDesc: "Laravel ile geliştirdiğim İlaç Hatırlatma Sistemi, kullanıcıların ilaç bilgilerini, kutu seçimlerini ve kullanım saatlerini veritabanında saklayarak takip etmelerini sağlıyor. Blade şablonlarıyla modern ve responsive bir arayüz tasarladım, modal formlar ve dinamik butonlarla kullanıcı etkileşimini optimize ettim. Çoklu gün seçimi ve saat bazlı hatırlatmaların yanı sıra backend'de veritabanı CRUD işlemlerini güvenli ve verimli bir şekilde yönettim.",
+      design: "Ritim Oyunu Projesi",
+      designDesc: "PHP ve Laravel ile backend'i, JavaScript ile interaktif arayüzü hazırladım",
+      designFullDesc: "PHP ve Laravel ile backend'i, JavaScript ile interaktif arayüzü hazırladım; oyuncular klavye kullanarak doğru zamanda notalara basıp puan topluyor ve farklı müziklerle zorluk seviyeleriyle oyun deneyimi daha eğlenceli hâle geliyor.",
+      analytics: "Hayvanlar Oyunu",
+      analyticsDesc: "Çocukların hayvanları tanıyıp seçmesini sağlamak için yaptım",
+      analyticsFullDesc: "Çocukların hayvanları tanıyıp seçmesini sağlamak için yaptım. Oyun görsel ve sesli içeriklerle desteklenmiş olup, eğlenceli ve öğretici bir deneyim sunuyor.",
+      social: "Sosyal Ağ",
+      socialDesc: "Sosyal medya mobil uygulaması",
+      socialFullDesc: "WebSocket teknolojisini kullanarak mesajlaşma, bildirimler ve gerçek zamanlı güncellemeler içeren sosyal medya mobil uygulaması.",
+      brand: "Marka Yönergeleri",
+      brandDesc: "Tam marka kimliği",
+      brandFullDesc: "Logo kullanımı, renk paleti, tipografi ve görsel standartlar dahil olmak üzere kapsamlı marka kimliği yönergeleri."
+    },
+    experience: {
+      title: "Deneyim",
+      seniorDev: "Stajyer Yazılım Geliştirici",
+      seniorDevDate: "2023",
+      seniorDevDesc: "Yazılım geliştirme süreçlerini öğrenme ve projelerde aktif rol alma",
+      fullstackDev: "",
+      fullstackDevDate: "",
+      fullstackDevDesc: "",
+      juniorDev: "",
+      juniorDevDate: "",
+      juniorDevDesc: ""
+    },
+    contact: {
+      title: "İletişime Geçin",
+      subtitle: "Birlikte çalışalım ve harika bir şeyler yaratalım",
+      infoTitle: "İletişim Bilgileri",
+      nameLabel: "Ad",
+      namePlaceholder: "Adınız",
+      emailLabel: "E-posta",
+      emailPlaceholder: "E-posta adresiniz",
+      emailValue: "ikoiscen158@outlook.com",
+      phoneLabel: "Telefon",
+      phoneValue: "0542 608 2702",
+      locationLabel: "Konum",
+      locationValue: "Düzce, Türkiye",
+      followLabel: "Beni Takip Edin",
+      subjectLabel: "Konu",
+      subjectPlaceholder: "Konunuz",
+      messageLabel: "Mesaj",
+      messagePlaceholder: "Mesajınız",
+      submitBtn: "Mesaj Gönder",
+      successMsg: "Mesajınız başarıyla gönderildi!"
+    },
+    footer: {
+      copyright: "© 2026 İlknur İşcen. Tüm hakları saklıdır."
+    },
+    language: {
+      tr: "Türkçe",
+      en: "English"
+    }
+  },
+  en: {
+    navbar: {
+      home: "Home",
+      about: "About",
+      skills: "Skills",
+      projects: "Projects",
+      experience: "Experience",
+      contact: "Contact"
+    },
+    hero: {
+      headline: "İlknur İşcen",
+      subtitle: "Welcome To My Portfolio",
+      projectsBtn: "View Projects",
+      contactBtn: "Get in Touch"
+    },
+    about: {
+      title: "About Me",
+      badge: "Developer",
+      bioIntro: "Hello, I'm İlknur İşcen. I'm a graduate of Çanakkale Onsekiz Mart University's Computer Programming department; I aim to continuously improve in the software field with my knowledge and projects in PHP (Laravel), C#, Java, and web technologies (HTML, CSS). I want to increase my competence in creating user-friendly and functional components by supporting my design with Photoshop and Illustrator.",
+      experienceTitle: "Experience",
+      experienceValue: "1+ Year",
+      projectsTitle: "Projects",
+      projectsValue: "15+",
+      clientsTitle: "Clients",
+      clientsValue: "10+",
+      location: "Duzce, Turkey",
+      status: "Open to Opportunities",
+      specialty: "Full Stack Development",
+      ctaContact: "Get in Touch",
+      ctaProjects: "View My Work",
+      cvDownload: "Download CV",
+      skillsOverviewTitle: "Core Competencies",
+      frontendSkills: "Frontend",
+      backendSkills: "Backend",
+      toolsSkills: "Tools & Others"
+    },
+    skills: {
+      title: "Skills",
+      frontend: "Frontend",
+      frontendDesc: "Building responsive and interactive web interfaces with HTML, CSS, JavaScript, Laravel Blade, Bootstrap",
+      backend: "Backend",
+      backendDesc: "Developing scalable applications with PHP, Laravel, Java, C# (.NET, Entity Framework Core)",
+      tools: "Database & Tools",
+      toolsDesc: "Modern development with MySQL, MongoDB, MsSQL, Git & GitHub"
+    },
+    projects: {
+      title: "Projects",
+      filterAll: "All",
+      filterWeb: "Web",
+      filterMobile: "Mobile",
+      filterDesign: "Design",
+      viewDetailsBtn: "View Details",
+      githubBtn: "GitHub",
+      ecommerce: "Cinema Ticket Sales Project",
+      ecommerceDesc: "A Cinema Ticket Sales System I developed using C# and Windows Forms",
+      ecommerceFullDesc: "The Cinema Ticket Sales System I developed using C# and Windows Forms allows users to view movies, showtimes, and theaters and purchase tickets. It connects to a MySQL database with Entity Framework Core, and thanks to the administrator module, I can easily manage movie, theater, seat, and ticket transactions.",
+      fitness: "Medication Reminder System",
+      fitnessDesc: "The Medication Reminder System I developed with Laravel",
+      fitnessFullDesc: "The Medication Reminder System, developed with Laravel, allows users to track their medication intake, box selections, and usage releases by storing them in a database. I designed a modern and responsive software with Blade models, and optimized user interaction with modal forms and dynamic buttons. Multi-day selection and hour-based reminders, as well as backend database CRUD operations, are managed securely and efficiently.",
+      design: "Rhythm Game Project",
+      designDesc: "I developed the backend using PHP and Laravel, and the interactive interface using JavaScript",
+      designFullDesc: "I prepared the backend with PHP and Laravel, and the interactive interface with JavaScript; players use the keyboard to press notes at the right time to collect points, and the game experience becomes more fun with different music and difficulty levels.",
+      analytics: "Animals Game",
+      analyticsDesc: "I did this to help children recognize and choose animals",
+      analyticsFullDesc: "I created this to help children recognize and choose animals. The game is supported by visual and audio content, offering a fun and educational experience.",
+      social: "Social Network",
+      socialDesc: "Social media mobile app",
+      socialFullDesc: "A social media mobile application with messaging, notifications, and real-time updates using WebSocket technology.",
+      brand: "Brand Guidelines",
+      brandDesc: "Complete brand identity",
+      brandFullDesc: "Comprehensive brand identity guidelines including logo usage, color palette, typography, and visual standards."
+    },
+    experience: {
+      title: "Experience",
+      seniorDev: "Software Developer Intern",
+      seniorDevDate: "2023",
+      seniorDevDesc: "Learning software development processes and taking an active role in projects",
+      fullstackDev: "",
+      fullstackDevDate: "",
+      fullstackDevDesc: "",
+      juniorDev: "",
+      juniorDevDate: "",
+      juniorDevDesc: ""
+    },
+    contact: {
+      title: "Get in Touch",
+      subtitle: "Let's collaborate and create something amazing together",
+      infoTitle: "Contact Information",
+      nameLabel: "Name",
+      namePlaceholder: "Your name",
+      emailLabel: "Email",
+      emailPlaceholder: "Your email",
+      emailValue: "ikoiscen158@outlook.com",
+      phoneLabel: "Phone",
+      phoneValue: "0542 608 2702",
+      locationLabel: "Location",
+      locationValue: "Duzce, Turkey",
+      followLabel: "Follow Me",
+      subjectLabel: "Subject",
+      subjectPlaceholder: "Your subject",
+      messageLabel: "Message",
+      messagePlaceholder: "Your message",
+      submitBtn: "Send Message",
+      successMsg: "Message sent successfully!"
+    },
+    footer: {
+      copyright: "© 2026 Portfolio. All rights reserved."
+    },
+    language: {
+      tr: "Türkçe",
+      en: "English"
+    }
+  }
+};
